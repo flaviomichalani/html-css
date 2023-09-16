@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Videos hospedados localmente</h1>
+    <p>Este video está hospedado no meu próprio servidor.</p>
+    <!-- <video src="media/meu-video.webm" width="500" autoplay controls loop></video> -->
+    <!--Mesmo esquema de audio. Por questão de compatibilidade o correto segue-->
+    <video controls width="560" poster="imagens/limoes-capa.png" loop>
+        <source src="media/meu-video.mp4" type="video/mp4">
+        <source src="media/Meu-Video.mkv" type="video/mkv">
+        <source src="media/Meu-Video.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+    <h1>Incorporando videos do youtube</h1>
+    <h2>Um dos melhores Rogue likes dos últimos anos. Hades!!</h2>
+    <iframe 
+        width="560" height="315" src="https://www.youtube.com/embed/91t0ha9x0AE" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+        gyroscope; picture-in-picture; web-share" allowfullscreen>
+    </iframe>
+    <h1>E o que estou jogando no momento: Elder Scrolls Online</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/195pyutqDA4" title="YouTube video player"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+    gyroscope; picture-in-picture; web-share" allowfullscreen>
+    </iframe>
+</body>
+</html>
